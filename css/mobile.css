@@ -3,16 +3,27 @@ body {
 }
 
 h1 {
-	font-size: 2.5em;
-	margin: 0 0 20px 0;
+	font-size: 2.2rem;
 }
 
 h2 {
-	font-size: 1.2em;
-	margin: 0 0 50px 0;
+	font-size: 1.2rem;
+  margin: 1.5rem 0;
 }
 
 .contact-me {
 	font-size: 1.4em;
 	margin-bottom: 1em;
+}
+
+.box {
+  padding: 2rem;
+}
+
+.icon-link:hover {
+  background: transparent;
+}
+
+.icon-link:hover svg {
+  color: #FFFFFF;
 }

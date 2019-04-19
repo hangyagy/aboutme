@@ -10,7 +10,24 @@ body {
 	font-family: "Roboto", sans-serif;
 	color: #FFFFFF;
 	line-height: 1.4;
-	font-size: 1em;
+	font-size: 1rem;
+}
+
+.box {
+  background: #673ab7;
+  width: 100%;
+  max-width: 650px;
+  max-height: 100%;
+  margin: auto;
+  padding: 7rem;
+  
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
 .content {
@@ -28,13 +45,12 @@ body {
 h1 {
 	color: #FFFFFF;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 7em;
+	font-size: 3rem;
 	font-weight: 400;
-	margin: 0 0 40px 0;
 	display: block;
 	width: 100%;
+  margin: 2rem 0;
 	text-align: center;
-	text-transform: uppercase;
 	-moz-text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 	-webkit-text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 	text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
@@ -43,9 +59,9 @@ h1 {
 h2 {
 	color: #FFFFFF;
 	font-family: "Roboto", sans-serif;
-	font-size: 3.5em;
+	font-size: 1.875rem;
 	font-weight: 300;
-	margin: 0 0 110px 0;
+  margin: 1.875rem 0;
 	-moz-text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 	-webkit-text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 	text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
@@ -57,7 +73,7 @@ h2 {
 .contact-me {
 	color: #FFFFFF;
 	font-weight: 900;
-	font-size: 3em;
+	font-size: 1.5rem;
 	text-align: center;
 	display: block;
 	width: 100%;
@@ -82,4 +98,52 @@ h2 {
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
+}
+
+.fa-w-14 {
+  width: 0.875em;
+}
+
+.fa-w-16 {
+  width: 1em;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  height: 1em;
+  font-size: inherit;
+  vertical-align: -0.125em;
+}
+
+.fa-2x {
+  font-size: 1.5em;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link {
+  color: #FFFFFF;
+  margin: 0 0.125rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s linear;
+}
+
+.icon-link:hover {
+  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+.icon-link:hover svg {
+  color: #212121;
 }
